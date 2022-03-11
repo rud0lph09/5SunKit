@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FiveSunKit_Example' do
+  pod 'FiveSunKit', :path => '../'
+
+  target 'FiveSunKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
